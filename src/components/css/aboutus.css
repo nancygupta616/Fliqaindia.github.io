@@ -1,0 +1,161 @@
+.container-5{
+    margin-top: 70px;
+    height: auto;
+    width: 100%;
+    
+    /* background:  ; */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  
+  .img-fluid{
+    opacity: 0.4;
+    left:10%;
+  }
+  .img-fluid-mobile{
+    display: none;
+  }
+  .hideDesktop{
+    display: none;
+  }
+  
+  .img-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 2% 10%;
+  }
+  
+  .about-heading{
+    font-size: 74px;
+    color: #101d12 !important;
+    font-weight: 400 !important;
+    
+  }
+  
+  .sub-heading{
+    letter-spacing: 0.5px;
+    font-weight: normal;
+    font-size: 24px;
+    color: #333333 !important;
+    font-family: 'Poppins' !important;
+  }
+  
+  .sub-heading span{
+    color: #6082A7;
+  }
+  
+  .box {
+    position: relative;
+  }
+  .about-us {
+    margin: 5% 0;
+  }
+  
+  .paragraph{
+    /* background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.1)); */
+    margin-top: 20px;
+    letter-spacing: normal;
+    text-align: center;
+    width:75%;
+    /* font-family:Helvatica; */
+    font-size: 20px;
+    line-height: 35px;
+    color: #000 !important;
+    font-weight: 400;
+    /* height:60vh; */
+  }
+  .img-fluid{
+    position:absolute;
+    width:80%;
+    left:11%;
+    height: auto!important;
+  }
+  
+  @media only screen and (max-width:991px){
+    .about-us-web-hide{
+      display: block;
+    }
+  
+    .container-5{
+      display: flex;
+      margin-top: 50px;
+      padding: 0;
+      /* background:  url(wedding-background-mbl.webp); */
+      background-size: cover;
+      background-repeat: no-repeat;
+  
+    }
+  
+    .hidePhone{
+      display: none;
+    }
+  
+    .sub-heading{
+      font-size: 18px;
+      font-weight: 300;
+    }
+  
+    .about-heading{
+      font-size: 26px !important;
+      font-weight: 500 !important;
+    }
+  }
+  
+  
+  @media only screen and (max-width: 991px) {
+    .img-title {
+      color: rgb(0, 0, 0);
+      text-align: center;
+      top: 5%;
+      left:-10px;
+      padding: 0 5%;
+      font-size: 15px;
+    }
+    .about-heading{
+      width:100% !important;
+      text-align:center !important;
+      font-weight: bold !important;
+      font-size: 38px !important;
+      font-family: 'Raleway', sans-serif !important;
+    }
+    .paragraph{
+      text-align: center !important;
+      width:90%;
+      font-weight: 400 !important;
+      line-height: 30px;
+      font-size: 18px !important;
+      left:5% !important;
+      top:5%;
+    }
+    .hideDesktop{
+      position: absolute;
+      font-size: 15.5px;
+      width: 80%;
+      left: 10%;
+      text-align: center;
+      line-height: 20px;
+      display: block;
+    }
+    .about-us {
+      margin: 2% 0 0% 0%;
+    }
+    .img-fluid{
+      display: none;
+    }
+    .img-fluid-mobile{
+      position: absolute;
+      display: block;
+      width:100% !important;
+      left:-5px !important;
+      top:-30px;
+      opacity: 0.6 !important;
+      height:300px !important;
+    }
+  }
+  /* POPUp */
+  
