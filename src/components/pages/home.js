@@ -1,14 +1,22 @@
-import React from 'react';
-import { Helmet } from 'react';
+import React, {Component} from 'react';
+import { Helmet } from 'react-helmet';
+
 import '../../App.scss';
 import '../css/aboutus.css';
 import '../css/wedding.css';
 
-function Home() {
-   
+class Home extends React.Component {
+    render(){
+        
     return (
         <div class="container-fluid">
-              
+            <Helmet>
+            <title>FliqaIndia: Photography, Videography & Graphic Design related creative
+platform</title>
+            <meta name="description" content="Personalised platforms for Photography, Videography with
+Graphics. One of the leading platforms in the creative domain." />
+        </Helmet>
+             
          <div class="container-3">
           <div data-index="-3" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" >
               <div>
@@ -89,6 +97,7 @@ function Home() {
         </div>
         </div>
     );
+ }
 } 
 
 export default Home;

@@ -1,12 +1,16 @@
-import React from 'react'
+import React from 'react';
+import { Helmet } from 'react-helmet';
 import '../css/logo.css';
 import '../css/aboutus.css';
 import '../css/wedding.css';
 
 function Logo() {
     return (
-        
         <div class="container-fluid">
+            <Helmet>
+            <title>Logo Design</title>
+            <meta name="description" content="Make your own brand identity through us. Start your design now." />
+        </Helmet>
          <div className = 'container-5'>
                 <div className= 'img-title'>
                 <img id = "logo-img" src ="" alt =""/> 
